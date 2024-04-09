@@ -1,9 +1,6 @@
 class Solution:
     def isPalindrome(self, x):
-        original_number = str(x)
-        reversed_number = str(x)[::-1]
-
-        if original_number == reversed_number:
+        if str(x) == str(x)[::-1]:
             return True
         
         return False
