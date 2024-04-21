@@ -8,7 +8,6 @@ class Solution:
             # adicionando complemento do target ao dicionario como chave e valor o index, pedido como resposta :))
             hashSolution[target - i] = idx
         
-# esse aqui foi puro gpt
 solution_instance = Solution()
 
 print(solution_instance.twoSum([3,3], 6))
