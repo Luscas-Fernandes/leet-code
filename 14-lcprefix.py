@@ -18,7 +18,7 @@ class Solution:
         """ 
             len(min(strs, key=len)
             corta as outras strings para o tamanho 
-            menor da string minima (Já que é longest common PREFIX), 
+            da menor string (Já que é longest common PREFIX), 
             não substring
         """
 
